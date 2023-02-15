@@ -7,8 +7,8 @@ resource "aws_s3_bucket" "mfadelete" {
   }
 }
 
-resource "aws_s3_bucket" "mfadelete2" {
-  bucket = "mfadelete2"
+resource "aws_s3_bucket" "mfadelete3" {
+  bucket = "mfadelete3"
   acl    = "private"
   versioning {
     enabled = true
