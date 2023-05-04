@@ -40,7 +40,14 @@ resource "aws_s3_bucket" "mfadelete11" {
     mfa_delete = true
   }
 }
-
+resource "aws_s3_bucket" "mfadelete12" {
+  bucket = "examplebuckettftest12"
+  acl    = "private"
+  versioning {
+    enabled = true
+    mfa_delete = true
+  }
+}
 
 
 
